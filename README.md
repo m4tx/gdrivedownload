@@ -24,4 +24,4 @@ python main.py client_id client_secret folder_id out_path
 * `client_secret` - Google Drive OAuth2 secret key
 * `folder_id` - Google Drive folder ID (usually the last part of the URL,
     like `https://drive.google.com/drive/u/0/folders/<folder_id>`)
-* `out_path` - output directory to put the files into. Will be created recursively if does not exists
+* `out_path` - output directory to put the files into. Will be created recursively if does not exist
