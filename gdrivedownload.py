@@ -124,7 +124,7 @@ def get_file_list(service, folder_id):
     return result
 
 
-if __name__ == '__main__':
+def main():
     args = create_argparser().parse_args()
     os.makedirs(args.out_path, exist_ok=True)
     service = create_service(args, args.client_id, args.client_secret)
@@ -134,3 +134,7 @@ if __name__ == '__main__':
     print('Retrieved list of {} files'.format(len(file_list)))
 
     download_files(service, file_list, args.out_path)
+
+
+if __name__ == '__main__':
+    main()

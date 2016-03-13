@@ -1,2 +1,10 @@
-oauth_storage
+# Distribution/packaging
+*.egg-info/
+dist/
+build/
+
+# Compiled bytecode
 *.pyc
+
+# Files created at runtime
+oauth_storage
