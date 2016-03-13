@@ -9,7 +9,7 @@ with open(path.join(base_path, 'README.rst'), encoding='utf-8') as f:
 
 setup(
         name='gdrivedownload',
-        version='1.0.0',
+        version='1.0.1',
         description='Simple script that downloads all files from given '
                     'Google Drive directory',
         long_description=long_description,
